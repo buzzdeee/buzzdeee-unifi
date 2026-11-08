@@ -6,7 +6,7 @@
 #   include unifi
 
 class unifi (
-  $package_name = 'unifi%main'
+  $package_name = 'unifi%main',
   $package_ensure = 'installed',
   $service_name = 'unifi'
   $service_ensure = 'running',
